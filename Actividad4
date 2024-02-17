@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Animales en lista</title>
+  </head>
+  <body>
+    <h1><strong>Animales en lista</strong></h1>
+
+    <h2>Lista: </h2>
+    <ol start="0"> 
+        <li>
+          <p>A</p>
+          <p>Abeja</p>
+          <p>Las abejas son insectos que llevan a cabo sorprendentes funciones interconectadas para mantener la salud de su colmena.</p>
+          <img src="html/Imagenes/Abeja.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.es/animales/abeja" target="_blank">Más información sobre la Abeja</a>
+        </li>
+
+        <li>
+          <p>B</p>
+          <p>Ballena Azul</p>
+          <p>La ballena azul es el animal conocido más grande que vive en la Tierra. Estos majestuosos mamíferos marinos dominan los océanos con sus 30 metros de longitud y hasta 180 toneladas de peso.</p>
+          <img src="html/Imagenes/ballena.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.es/animales/ballena-azul" target="_blank">Más información sobre la Ballena Azul</a>
+        </li>
+
+        <li>
+          <p>C</p>
+          <p>Conejo</p>
+          <p>El conejo se caracteriza por tener un cuerpo cubierto de un pelaje espeso y lanudo, de color pardo pálido a gris o rojizo, que permite su camuflaje para evitar a sus depredadores. Pesa entre 1,5 y 2,5 kg en estado salvaje.</p>
+          <img src="html/Imagenes/Conejo.jpeg" width="200px" height="300px">
+          <a href="https://zooguadalajara.com.mx/animales/detalle/218" target="_blank">Más información sobre el Conejo</a>
+        </li>
+
+        <li>
+          <p>D</p>
+          <p>Delfín</p>
+          <p>Los delfines son un tipo de mamíferos cetáceos pertenecientes a la familia Delphinidae. Pueden vivir más de 30 años en cautividad.</p>
+          <img src="html/Imagenes/Delfin.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.com.es/animales/delfines" target="_blank">Más información sobre el Delfín</a>
+        </li>
+
+        <li>
+          <p>E</p>
+          <p>Elefante</p>
+          <p>Es el mamífero más grande de la tierra puede pesar hasta ocho toneladas y mide 3 metros de alto por 7 de largo.</p>
+          <img src="html/Imagenes/Elefante.jpg" width="200px" height="300px">
+          <a href="https://www.wwf.es/nuestro_trabajo/especies_y_habitats/elefante/" target="_blank">Más información sobre el Elefante</a>
+        </li>
+
+        <li>
+          <p>F</p>
+          <p>Foca</p>
+          <p>Los fócidos o focas verdaderas (Phocidae) son una familia de mamíferos pinnípedos marinos adaptados a vivir en medios acuáticos la mayor parte del tiempo.</p>
+          <img src="html/Imagenes/Foca.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographicla.com/animales/2023/03/cuantos-tipos-de-focas-existen-en-latinoamerica-y-cuales-son-sus-estados-de-conservacion" target="_blank">Más información sobre la Foca</a>
+        </li>
+
+        <li>
+          <p>G</p>
+          <p>Gato</p>
+          <p>Los gatos son curiosos por naturaleza y les encanta explorar. Son animales muy independientes y no les gusta depender de sus dueños.</p>
+          <img src="html/Imagenes/Gato.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographicla.com/animales/gato-domestico" target="_blank">Más información sobre el Gato</a>
+        </li>
+
+        <li>
+          <p>H</p>
+          <p>Halcón</p>
+          <p>Esta asombrosa ave rapaz es la más rápida del mundo, y la razón por la cual los humanos también pueden volar.</p>
+          <img src="html/Imagenes/Halcon.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.com.es/mundo-animal/que-aviacion-le-debe-halcon-peregrino_20646" target="_blank">Más información sobre el Halcón</a>
+        </li>
+
+        <li>
+          <p>I</p>
+          <p>Iguana</p>
+          <p>Las iguanas verdes (o comunes) se encuentran entre los lagartos más grandes de las Américas, con un promedio aproximado de 2 metros de largo y un peso de alrededor de 5 kilos.</p>
+          <img src="html/Imagenes/Iguana.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographicla.com/animales/ficha-informativa-de-la-iguana-verde-uno-de-los-reptiles-mas-grandes-de-las-americas" target="_blank">Más información sobre la Iguana</a>
+        </li>
+
+        <li>
+          <p>J</p>
+          <p>Jaguar</p>
+          <p>El jaguar es el único felino grande de América y el tercero más grande del mundo, después de los tigres y los leones.</p>
+          <img src="html/Imagenes/Jaguar.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographicla.com/animales/2020/04/jaguar" target="_blank">Más información sobre el Jaguar</a>
+        </li>
+
+        <li>
+          <p>K</p>
+          <p>Koala</p>
+          <p>Los koalas viven en los bosques de eucaliptos del sureste y este de Australia. La mayor parte del tiempo están durmiendo.</p>
+          <img src="html/Imagenes/Koala.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.es/animales/koala" target="_blank">Más información sobre el Koala</a>
+        </li>
+
+        <li>
+          <p>L</p>
+          <p>Lobo</p>
+          <p>Son animales muy inteligentes que viven organizados en manadas, que por lo general no suelen superar los quince o veinte miembros como máximo, y cuya estructura jerárquica está muy marcada.</p>
+          <img src="html/Imagenes/Lobo.jpg" width="200px" height="300px">
+          <a href="https://www.nationalgeographic.com.es/animales/lobos" target="_blank">Más información sobre el Lobo</a>
+        </li>
+    </ol>
+
+  </body>
+</html>

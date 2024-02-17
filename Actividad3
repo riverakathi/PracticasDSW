@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <strong><h1>Datos de Registro de Clark Kent</h1></strong>
+    <h2>Datos personales</h2>
+    <ol>
+        <li>Nombre en la tierra: <strong>Clark Kent</strong></li>
+        <li>Nombre de nacimiento: <strong>Kal-El</strong></li>
+        <li>Lugar de nacimiento: <strong>Krypton</strong></li>
+        <li>Reside en: <strong>Ciudad Metropolis</strong></li>
+    </ol>
+
+    <h3>Poderes</h3>
+    <ol>
+        <li>Habilidad 1: <strong>Super Fuerza</strong></li>
+        <li>Habilidad 2: <strong>Super Velocidad</strong></li>
+        <li>Habilidad 3: <strong>Vuelo</strong></li>
+        <li>Habilidad 4: <strong>Vision Calorifica</strong></li>
+
+    </ol><h4>Principales enemigos</h4>
+    <ol>
+        <li>Enemigo 1: <strong>Lex Luthor</strong></li>
+        <li>Enemigo 2: <strong>Doomsday</strong></li>
+        <li>Enemigp 3: <strong>General Zod</strong></li>
+        <li>Enemigo 4: <strong>Darkseid</strong></li>
+    </ol>
+ 
+  </body>
+</html>
