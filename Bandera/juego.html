@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="juego.css">
+    <title>Banderas</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>Banderas de Paises</header>
+    
+    <!-- Título -->
+    <h1>¿Que Pais es?</h1>
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial">
+        <!-- Mensaje de instrucción -->
+        <p>¿A qué País pertenece la Bandera?</p>
+        <!-- Botón para comenzar el juego -->
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button>
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <!-- Imagen de la bandera -->
+        <img src="img/mexico.jpg" alt="" id="imgBandera">
+        <!-- Contenedor de opciones -->
+        <div class="opciones">
+            <!-- Opción A -->
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <!-- Opción B -->
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <!-- Opción C -->
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+            <!-- Opción D -->
+            <div class="opcion" id="op3" onclick="comprobarRespuesta(3)">
+                <div class="letra" id="l3">D</div>
+                <div class="nombre" id="n3">OPCION D</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pantalla final -->
+    <div id="pantalla-final">
+        <!-- Resultados del juego -->
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <!-- Botón para volver al inicio -->
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <!-- Script para la lógica del juego -->
+    <script src="juego.js"></script>
+
+    <!-- Rivera Kathia -->
+
+</body>
+</html>
