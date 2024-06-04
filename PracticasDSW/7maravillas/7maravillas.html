@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="7maravillas.css">
+    <title>7 MARAVILLAS DEL MUNDO</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>7 MARAVILLAS DEL MUNDO</header>
+    
+    <!-- Título -->
+    <h1>¿Qué Maravilla del mundo es?</h1>
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial">
+        <p>¿A qué maravilla pertenece la imagen?</p>
+        <!-- Botón para comenzar el juego -->
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button>
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <!-- Imagen de la maravilla -->
+        <img src="img/chichen-itza.svg" alt="" id="imgMaravilla">
+        <!-- Contenedor de opciones -->
+        <div class="opciones">
+            <!-- Opción A -->
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <!-- Opción B -->
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <!-- Opción C -->
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pantalla final -->
+    <div id="pantalla-final">
+        <!-- Resultados del juego -->
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <!-- Botón para volver al inicio -->
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <!-- Script para la lógica del juego -->
+    <script src="7maravillas.js"></script>
+
+<!-- Rivera Kathia -->
+
+</body>
+</html>

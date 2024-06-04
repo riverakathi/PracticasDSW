@@ -1,0 +1,29 @@
+div {
+    width: 5cm;
+    height: 2cm;
+ }
+ 
+ div {
+    width: 100px;
+    height: 50px;
+ }
+ 
+ div {
+    font-size: 2em;
+    line-height: 2ex;
+ }
+ div {
+    width: 50vw;
+    height: 40vh;
+    font-size: 5vmin;
+ }
+ body {
+    font-size: 16px;
+ }
+ 
+ div {
+    font-size: 1.5rem;
+ }
+ p{color: rgb(71, 98, 176); }
+ p{color: rgb(27%, 38%, 69%); }
+ p{color: #4762B0; }
