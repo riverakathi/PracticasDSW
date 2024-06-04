@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- El idioma de la página es español -->
+    <head>
+        <meta charset="UTF-8"> <!-- Codificación de caracteres UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Vista adaptable a diferentes dispositivos -->
+        <link rel="stylesheet" href="./css/lugaresturisticos.css"> <!-- Enlace a la hoja de estilos para lugares turísticos -->
+        <link rel="stylesheet" href="./css/navBar.css"> <!-- Enlace a la hoja de estilos para la barra de navegación -->
+        <title>Lugar Turístico - Londres Inglaterra</title> <!-- Título de la página -->
+    </head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-button">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="acerca.html" class="nav-button">Acerca de</a></li> <!-- Enlace a la página "Acerca de" -->
+                <li><a href="lugaresturisticos.html" class="nav-button">Lugares turísticos</a></li> <!-- Enlace a la página de lugares turísticos -->
+                <li><a href="comidatipica.html" class="nav-button">Comida típica</a></li> <!-- Enlace a la página de comida típica -->
+                <li><a href="creador.html" class="nav-button">Contacto del creador</a></li> <!-- Enlace a la página de contacto del creador -->
+                <li><a href="index.php" class="nav-button">Formulario de registro</a></li> <!-- Enlace al formulario de registro -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-button">Extras</a> <!-- Enlace a la sección de extras -->
+                    <ul class="dropdown-content">
+                        <li><a href="cultura.html">Cultura</a></li> <!-- Enlace a la página de cultura -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal para el slider de imágenes -->
+    <div class="container">
+      <div class="slide">
+          <!-- Item del slider: Galería Nacional -->
+          <div class="item" style="background-image: url(img/GaleríaNacional.jpeg);">
+            <div class="content">
+              <div class="name">Galeria Nacional</div> <!-- Nombre del lugar -->
+              <div class="des">La Galería Nacional de Londres, es uno de los principales museos de la ciudad de Londres, 
+                Inglaterra. Se encuentra ubicado hacia el norte de la plaza Trafalgar Square y alberga en su interior 
+                la más grande muestra de colecciones de pintura del período 1250 a 1900 procedente de Europa occidental.
+                Fue fundada en el año 1824 y cuenta con obras de reconocidos artistas a lo largo de las cuatro alas que 
+                conforman el museo. La colección permanente consta de 2.300 pinturas que pertenecen al estado británico, 
+                lo cual le otorga la categoría de museo público.</div> <!-- Descripción del lugar -->
+            </div>
+          </div>
+          <!-- Item del slider: Museo Británico -->
+          <div class="item" style="background-image: url(img/MuseoBritánico.jpeg);">
+            <div class="content">
+              <div class="name">Museo Británico</div>
+              <div class="des">El museo se creó en 1753 y se abrió definitivamente al público el 15 de enero de 1759. 
+                Los orígenes del Museo Británico van unidos al físico y coleccionista Hans Sloane, que deseaba que su 
+                colección de más de 80.000 artículos perdurará tras su muerte. Entre los objetos de la colección estaban 
+                incluidos más de 40.000 libros y antigüedades procedentes de Grecia,Roma, Egipto, Oriente Medio y América.
+                El Museo Británico de Londres es, además de uno de los museos más antiguos del mundo, una de las colecciones
+                de antigüedades más grandes y famosas que existen.</div>
+            </div>
+          </div>
+          <!-- Item del slider: Palacio de Buckingham -->
+          <div class="item" style="background-image: url(img/Palacio.jpg);">
+            <div class="content">
+              <div class="name">Palacio Buckingham</div>
+              <div class="des">El Palacio de Buckingham (Buckingham Palace) es la 
+                residencia oficial de la Familia Real Británica en Londres. 
+                Ven y conoce la historia del palacio.</div>
+            </div>
+          </div>
+          <!-- Item del slider: London Eye -->
+          <div class="item" style="background-image: url(img/londoeye.jpg);">
+            <div class="content">
+              <div class="name">London Eye</div>
+              <div class="des">Construida en el año 2000 para celebrar el 
+                nuevo milenio, la noria London Eye se ha convertido en uno de los 
+                principales símbolos de Londres. Descúbrela.</div>
+            </div>
+          </div>
+          <!-- Item del slider: Big Ben -->
+          <div class="item" style="background-image: url(img/BigBen.jpeg);">
+            <div class="content">
+              <div class="name">Big Ben</div>
+              <div class="des">Conocido como Big Ben, el famoso reloj de 
+                las Casas del Parlamento se ha convertido en una de las 
+                imágenes más famosas de Londres. Conócelo.</div>
+            </div>
+          </div>
+          <!-- Item del slider: Emirates Stadium -->
+          <div class="item" style="background-image: url(img/EmiratesStadium.jpeg);">
+            <div class="content">
+              <div class="name">Emirates Stadium</div>
+              <div class="des">El Emirates Stadium es el lugar en donde 
+                juega sus partidos el Arsenal FC, 
+                uno de los equipos más importantes 
+                de toda Europa. Conócelo.</div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Botones de navegación del slider -->
+        <div class="button">
+          <button class="prev"><i class="fa-solid fa-arrow-left"></i></button> <!-- Botón anterior -->
+          <button class="next"><i class="fa-solid fa-arrow-right"></i></button> <!-- Botón siguiente -->
+        </div>
+    </div>
+    <!-- Enlace al archivo de JavaScript para el slider -->
+    <script src="js/slider.js"></script>
+</body>
+</html>

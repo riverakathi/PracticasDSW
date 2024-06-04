@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos básicos del documento -->
+        <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres como UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para que sea adaptable a diferentes dispositivos -->
+
+        <!-- Enlaces a hojas de estilo -->
+        <link rel="stylesheet" href="./css/acerca.css"> <!-- Hoja de estilos específica para la página "Acerca de" -->
+        <link rel="stylesheet" href="./css/index.css"> <!-- Hoja de estilos compartida con la página de inicio -->
+        <link rel="stylesheet" href="./css/formatobasico.css"> <!-- Hoja de estilos básica -->
+        <link rel="stylesheet" href="./css/navBar.css"> <!-- Hoja de estilos para la barra de navegación -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"> <!-- Hoja de estilos para el plugin Swiper -->
+
+        <!-- Scripts de Swiper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+        <title>Acerca de Londres Inglaterra</title> <!-- Título de la página -->
+    </head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Icono de la página -->
+            <a href="#"><img src="img/Icon.png" alt="Icono de la página"></a>
+            <ul class="nav-links">
+                <!-- Enlaces de navegación -->
+                <li><a href="index.html" class="nav-button">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="acerca.html" class="nav-button">Acerca de</a></li> <!-- Enlace a la página "Acerca de" -->
+                <li><a href="lugaresturisticos.html" class="nav-button">Lugares turísticos</a></li> <!-- Enlace a la página de lugares turísticos -->
+                <li><a href="comidatipica.html" class="nav-button">Comida típica</a></li> <!-- Enlace a la página de comida típica -->
+                <li><a href="creador.html" class="nav-button">Contacto del creador</a></li> <!-- Enlace a la página de contacto del creador -->
+                <li><a href="index.php" class="nav-button">Formulario de registro</a></li> <!-- Enlace al formulario de registro -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-button">Extras</a> <!-- Enlace a la sección de extras -->
+                    <ul class="dropdown-content">
+                        <li><a href="cultura.html">Cultura</a></li> <!-- Enlace a la página de cultura -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <div class="info">
+            <p>
+                <span class="movie-night"></span>
+                <!-- Descripción de Londres -->
+                La capital de Inglaterra y Reino Unido ha tenido un papel protagonista en la Historia desde que fuera fundada por los romanos 
+                con el nombre de Londinium. Es una de las ciudades más vibrantes y uno de los centros culturales y artísticos más importantes del mundo. 
+                Quienes la visitan pueden disfrutar de hasta cuatro monumentos que son patrimonio de la humanidad. Su metro es el más antiguo del mundo, 
+                y sin duda, el Big Ben es su principal símbolo.
+            </p>
+            <button class="btn">Londres</button> <!-- Botón con texto "Londres" -->
+        </div>
+        <!-- Swiper para mostrar imágenes -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://www.universal-assistance.com/uablog/wp-content/uploads/2022/12/London-bridge.png" alt="Londres" />
+                    <div class="overlay">
+                        <span>8.5</span> <!-- Calificación de la imagen -->
+                        <h2>Londres</h2> <!-- Título de la imagen -->
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="img-position" src="https://i.pinimg.com/736x/64/1a/d9/641ad9571c9ade545faf3ef16810b143.jpg" alt="Bandera" />
+                    <div class="overlay">
+                        <span>9.5</span> <!-- Calificación de la imagen -->
+                        <h2>BANDERA</h2> <!-- Título de la imagen -->
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_the_City_of_London.svg/1200px-Flag_of_the_City_of_London.svg.png" alt="Bandera de la Ciudad de Londres" />
+                    <div class="overlay">
+                        <span>8.1</span> <!-- Calificación de la imagen -->
+                        <h2>BANDERA</h2> <!-- Título de la imagen -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts para Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!-- Script de la biblioteca Swiper -->
+    <script src="js/swiper.js"></script> <!-- Script personalizado para configurar Swiper -->
+</body>
+</html>
+

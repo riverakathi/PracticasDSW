@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos del documento -->
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para que sea adaptable a diferentes dispositivos -->
+
+    <!-- Enlaces a hojas de estilo -->
+    <link rel="stylesheet" href="./css/comidatipica.css"> <!-- Hoja de estilos específica para la página de comida típica -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> <!-- Hoja de estilos para el plugin Swiper -->
+    <link rel="stylesheet" href="./css/navBar.css"> <!-- Hoja de estilos para la barra de navegación -->
+
+    <!-- Bibliotecas de Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+    <title>Comida Típica - Londres Inglaterra</title> <!-- Título de la página -->
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="container1">
+            <ul class="nav-links">
+                <!-- Enlaces de navegación -->
+                <li><a href="index.html" class="nav-button">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="acerca.html" class="nav-button">Acerca de</a></li> <!-- Enlace a la página "Acerca de" -->
+                <li><a href="lugaresturisticos.html" class="nav-button">Lugares turísticos</a></li> <!-- Enlace a la página de lugares turísticos -->
+                <li><a href="comidatipica.html" class="nav-button">Comida típica</a></li> <!-- Enlace a la página de comida típica -->
+                <li><a href="creador.html" class="nav-button">Contacto del creador</a></li> <!-- Enlace a la página de contacto del creador -->
+                <li><a href="index.php" class="nav-button">Formulario de registro</a></li> <!-- Enlace al formulario de registro -->
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-button">Extras</a> <!-- Enlace a la sección de extras -->
+                    <ul class="dropdown-content">
+                        <li><a href="cultura.html">Cultura</a></li> <!-- Enlace a la página de cultura -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal para Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Cada slide dentro del Swiper -->
+            <div class="swiper-slide">
+                <img src="img/SundayRoast.jpg" alt="Asado de Domingo" />
+                <div>
+                    <h2>Asado de Domingo</h2> <!-- Título del plato -->
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/TEAANDCREAMTEA.png" alt="Té de media tarde y té con nata" />
+                <div>
+                    <h2>Té de media tarde y té con nata</h2> <!-- Título del plato -->
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/PIESANDCORNISHPASTIES.jpg" alt="Tartas saladas y empanadas de Cornish" />
+                <div>
+                    <h2>Tartas saladas y empanadas de Cornish</h2> <!-- Título del plato -->
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/BACONANDEGGS.jpg" alt="Desayuno completo inglés" />
+                <div>
+                    <h2>Desayuno completo inglés</h2> <!-- Título del plato -->
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/FISHANDCHIPS.jpg" alt="Pescado con patatas" />
+                <div>
+                    <h2>Pescado con patatas</h2> <!-- Título del plato -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts para Swiper -->
+    <script src="js/swiper2.js"></script> <!-- Script personalizado para configurar Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!-- Script de la biblioteca Swiper -->
+</body>
+</html>
+

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 1.5vh;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+}
+
+.header, .destacados {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.destacados {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.tarjeta {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tarjeta h3 {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #3742fa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 1.5vh;
+    margin-top: 20px;
+}
